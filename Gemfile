@@ -1,0 +1,36 @@
+source 'https://rubygems.org'
+source 'https://rails-assets.org'
+
+# Use Uglifier as compressor for JavaScript assets
+#gem 'uglifier', '>= 1.3.0'
+
+gem 'rails', '~> 4.1'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'coffee-rails'
+gem 'font-awesome-rails'
+gem 'rails-assets-angular-resource'
+gem 'rails-assets-angular'
+gem 'rails-assets-restangular'
+gem 'rails-assets-angular-datatables'
+gem 'rails-assets-hammerjs'
+gem 'rails-assets-angular-ui-select'
+gem 'rails-assets-angular-wysiwyg'
+gem 'rails-assets-ngAutocomplete'
+gem 'angular-ui-bootstrap-rails'
+gem 'lodash-rails'
+gem 'sass-rails', '>= 4.0.4'
+gem 'jquery-rails'
+gem 'mysql2'
+gem 'responders'
+gem 'activerecord-import'
+
+group :development, :test do
+  gem 'teaspoon'
+  gem 'phantomjs'
+  gem 'guard'
+  gem 'guard-teaspoon'
+  gem 'sqlite3'
+  gem 'rubocop'
+  gem 'fabrication'
+  gem 'faker'
+end
